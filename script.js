@@ -26,7 +26,7 @@ const data = {
   kullu: {
     title: "Kullu",
     items: [
-      ["assets/images/kullu/siddu.jpg", "Siddu · steamed bread"],
+      ["assets/images/kullu/siddu.jpg", "Siddu"],
       ["assets/images/kullu/tabar.jpg", "What a weapon! Tabar"],
       ["assets/images/kullu/KulluDusshera.jpg", "Kullu Dusshehra"],
       ["assets/images/kullu/appleorchards.jpg", "Apple and peach orchards"]
@@ -46,7 +46,7 @@ const data = {
     items: [
       ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],
       ["assets/images/shimla/mall.jpg", "Jaha gaadi nahi jaati"],
-      ["assets/images/shimla/siddu.jpg", "Siddu"],
+      ["assets/images/shimla/dhaam.jpg", "Dhaam"],
       ["assets/images/shimla/FaguShimla.jpg", "Fagu"]
     ]
   }
