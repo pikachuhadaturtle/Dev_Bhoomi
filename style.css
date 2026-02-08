@@ -1,1 +1,73 @@
 
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f6f5f2;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+#map-section {
+  width: 40%;
+  position: relative;
+  padding: 40px;
+}
+
+#map {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.point {
+  position: absolute;
+  background: #2f4f4f;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#content {
+  width: 60%;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.polaroid-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.polaroid {
+  background: white;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+}
+
+.polaroid p {
+  font-size: 12px;
+  margin-top: 8px;
+}
