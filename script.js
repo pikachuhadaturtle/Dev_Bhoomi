@@ -13,6 +13,19 @@ toggle.onclick = () => {
   }
 };
 
+let audioStarted = false;
+
+function startAudioOnce() {
+  if (!audioStarted) {
+    audio.play().catch(() => {});
+    audioStarted = true;
+    toggle.textContent = '🔇';
+  }
+}
+
+// start audio on first user interaction
+document.body.addEventListener('click', startAudioOnce, { once: true });
+
 const data = {
   kotgarh: {
     title: "Kotgarh",
