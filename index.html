@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roots of Himachal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Roots of Himachal</h1>
+  <button id="audioToggle">🔈</button>
+</header>
+
+<main>
+  <section id="map-section">
+    <img src="assets/images/himachal-outline.png" alt="Himachal Map" id="map">
+
+    <!-- clickable points -->
+    <div class="point" data-place="kotgarh" style="top:40%; left:45%;">Kotgarh</div>
+    <div class="point" data-place="kullu" style="top:50%; left:40%;">Kullu</div>
+    <div class="point" data-place="kinnaur" style="top:30%; left:35%;">Kinnaur</div>
+    <div class="point" data-place="shimla" style="top:45%; left:50%;">Shimla</div>
+  </section>
+
+  <section id="content">
+    <p>Select a place.</p>
+  </section>
+</main>
+
+<audio id="bgAudio" loop>
+  <source src="assets/audio/pahadi-instrumental.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
