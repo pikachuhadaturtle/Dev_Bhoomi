@@ -39,7 +39,6 @@ const data = {
       ["assets/images/kinnaur/raulane.jpg", "Raulane!"]
       ["assets/images/kinnaur/dhol.jpg", "Pahadi Dhol"],
       ["assets/images/kinnaur/chanamadra.jpg", "Chana Madra"],
-      
     ]
   },
   shimla: {
@@ -48,8 +47,7 @@ const data = {
       ["assets/images/shimla/FaguShimla.jpg", "Fagu"]
       ["assets/images/shimla/mall.jpg", "Jaha gaadi nahi jaati"],
       ["assets/images/shimla/dhaam.jpg", "Dhaam"],
-      ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],
-      
+      ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],  
     ]
   }
 };
