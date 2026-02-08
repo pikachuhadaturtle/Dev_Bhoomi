@@ -17,37 +17,37 @@ const data = {
   kotgarh: {
     title: "Kotgarh",
     items: [
-      ["assets/images/kotgarh/budhi-diwali.jpg", "Budhi Diwali · winter ritual"],
-      ["assets/images/kotgarh/maghi.jpg", "Maghi · seasonal marker"],
-      ["assets/images/kotgarh/raulane.jpg", "Raulane · local gathering"],
-      ["assets/images/kotgarh/jagateshwar.jpg", "Jagateshwar Mahadev"]
+      ["assets/images/kotgarh/budhi-diwali.jpg", "Budhi Diwali"],
+      ["assets/images/kotgarh/maghi.jpg", "Maghi · Maash ki khichdi"],
+      ["assets/images/kotgarh/dhatu.jpg", "Dhaatu Rezta"],
+      ["assets/images/kotgarh/natti.jpg", "Natti - Cutest Dance"]
     ]
   },
   kullu: {
     title: "Kullu",
     items: [
       ["assets/images/kullu/siddu.jpg", "Siddu · steamed bread"],
-      ["assets/images/kullu/chana-madra.jpg", "Chana madra"],
-      ["assets/images/kullu/dham.jpg", "Dham · community meal"],
-      ["assets/images/kullu/orchards.jpg", "Apple and peach orchards"]
+      ["assets/images/kullu/tabar.jpg", "What a weapon! Tabar"],
+      ["assets/images/kullu/KulluDusshera.jpg", "Kullu Dusshehra"],
+      ["assets/images/kullu/appleorchards.jpg", "Apple and peach orchards"]
     ]
   },
   kinnaur: {
     title: "Kinnaur",
     items: [
-      ["assets/images/kinnaur/dhatu.jpg", "Dhatu · traditional clothing"],
-      ["assets/images/kinnaur/nati.jpg", "Nati · community dance"],
-      ["assets/images/kinnaur/instruments.jpg", "Folk instruments"],
-      ["assets/images/kinnaur/tabar.jpg", "Tabar weapon"]
+      ["assets/images/kinnaur/kalpa.jpg", "Kalpa Kinnaur"],
+      ["assets/images/kinnaur/dhol.jpg", "Pahadi Dhol"],
+      ["assets/images/kinnaur/chanamadra.jpg", "Chana Madra"],
+      ["assets/images/kinnaur/raulane.jpg", "Raulane!"]
     ]
   },
   shimla: {
     title: "Shimla",
     items: [
-      ["assets/images/shimla/road.jpg", "Mountain roads"],
-      ["assets/images/shimla/fog.jpg", "Quiet mornings"],
-      ["assets/images/shimla/curves.jpg", "Hill curves"],
-      ["assets/images/shimla/light.jpg", "Evening light"]
+      ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],
+      ["assets/images/shimla/mall.jpg", "Jaha gaadi nahi jaati"],
+      ["assets/images/shimla/siddu.jpg", "Siddu"],
+      ["assets/images/shimla/FaguShimla.jpg", "Fagu"]
     ]
   }
 };
