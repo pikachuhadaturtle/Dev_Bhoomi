@@ -9,13 +9,16 @@
   --shadow-soft: rgba(0,0,0,0.08);
 }
 
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  background: var(--bg-main);
-  color: var(--text-main);
-  line-height: 1.6;
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+  opacity: 0.04;
+  pointer-events: none;
+  z-index: 1;
 }
+
 
 header {
   display: flex;
@@ -42,16 +45,25 @@ h2 {
 
 main {
   display: flex;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 96px);
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.04);
 }
+
 
 #map-section {
   width: 40%;
   position: relative;
-  padding: 48px;
-  background: var(--bg-panel);
-  border-right: 1px solid #e2e2de;
+  padding: 56px;
+  background:
+    radial-gradient(
+      circle at center,
+      #fdfcf9 0%,
+      #f4f3ef 100%
+    );
+  border-right: 1px solid #e1e0db;
 }
+
 
 #map {
   width: 100%;
@@ -78,10 +90,15 @@ main {
 
 #content {
   width: 60%;
-  padding: 56px 64px;
-  overflow-y: auto;
-  background: var(--bg-main);
+  padding: 64px 72px;
+  background:
+    linear-gradient(
+      180deg,
+      #f6f5f0 0%,
+      #f1f0eb 100%
+    );
 }
+
 
 
 .polaroid-grid {
