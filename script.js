@@ -17,18 +17,18 @@ const data = {
   kotgarh: {
     title: "Kotgarh",
     items: [
-      ["assets/images/kotgarh/budhi-diwali.jpg", "Budhi Diwali"],
-      ["assets/images/kotgarh/maghi.jpg", "Maghi · Maash ki khichdi"],
       ["assets/images/kotgarh/dhatu.jpg", "Dhaatu Rezta"],
+      ["assets/images/kotgarh/maghi.jpg", "Maghi · Maash ki khichdi"],
+      ["assets/images/kotgarh/budhi-diwali.jpg", "Budhi Diwali"],
       ["assets/images/kotgarh/natti.jpg", "Natti - Cutest Dance"]
     ]
   },
   kullu: {
     title: "Kullu",
     items: [
-      ["assets/images/kullu/siddu.jpg", "Siddu"],
       ["assets/images/kullu/tabar.jpg", "What a weapon! Tabar"],
       ["assets/images/kullu/KulluDusshera.jpg", "Kullu Dusshehra"],
+      ["assets/images/kullu/siddu.jpg", "Siddu"],
       ["assets/images/kullu/appleorchards.jpg", "Apple and peach orchards"]
     ]
   },
@@ -36,18 +36,20 @@ const data = {
     title: "Kinnaur",
     items: [
       ["assets/images/kinnaur/kalpa.jpg", "Kalpa Kinnaur"],
+      ["assets/images/kinnaur/raulane.jpg", "Raulane!"]
       ["assets/images/kinnaur/dhol.jpg", "Pahadi Dhol"],
       ["assets/images/kinnaur/chanamadra.jpg", "Chana Madra"],
-      ["assets/images/kinnaur/raulane.jpg", "Raulane!"]
+      
     ]
   },
   shimla: {
     title: "Shimla",
     items: [
-      ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],
+      ["assets/images/shimla/FaguShimla.jpg", "Fagu"]
       ["assets/images/shimla/mall.jpg", "Jaha gaadi nahi jaati"],
       ["assets/images/shimla/dhaam.jpg", "Dhaam"],
-      ["assets/images/shimla/FaguShimla.jpg", "Fagu"]
+      ["assets/images/shimla/nainadevi.jpg", "Nainadevi ji"],
+      
     ]
   }
 };
