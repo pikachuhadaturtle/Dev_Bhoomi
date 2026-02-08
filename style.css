@@ -19,6 +19,12 @@ body::before {
   z-index: 1;
 }
 
+.intro {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  color: var(--text-muted);
+}
+
 
 header {
   padding: 28px 48px;
